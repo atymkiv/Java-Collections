@@ -3,14 +3,14 @@ package Collections.ContainerOutput.task4;
 import java.util.*;
 
 public class FavouriteCharacters {
-    private int id = 0;
-    public static String next(Collection<String> collection){
-        Iterator iter = collection.iterator();
-        Iterator iter2 = collection.iterator();
-        if (iter.hasNext())
-            return (String)iter.next();
-        else
-            return (String) iter2.next();
+    static int id = 0;
+    public static String nextByIndex(Collection<String> collection, int index){
+        id = index;
+        Iterator iterator = collection.iterator();
+            for (int i = 0; i < id%collection.size(); i++) {
+                iterator.next();
+            }
+            return (String) iterator.next();
     }
     public static Collection fill(){
         Collection<String> collection = new ArrayList<>();
@@ -28,7 +28,10 @@ public class FavouriteCharacters {
         characters2.addAll(fill());
         characters3.addAll(fill());
         for (int i = 0; i < characters1.size()+1; i++) {
-            System.out.println(next(characters1));
+            System.out.println(nextByIndex(characters1, i));
         }
+        System.out.println(characters1);
+        System.out.println(characters2);
+        System.out.println(characters3);
     }
 }
