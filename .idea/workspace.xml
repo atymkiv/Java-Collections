@@ -58,13 +58,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleCollection_Set.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleCollection_Set.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collections/MainConceptions/Tasks2_3/SimpleCollection_Set.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Collections/MainConceptions/Tasks2_3/Sequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/Collections/GenericsAndUpcasting/task1/Gerbil.java" />
         <option value="$PROJECT_DIR$/src/Collections/MainConceptions/SimpleCollection.java" />
         <option value="$PROJECT_DIR$/src/Collections/MainConceptions/Tasks2_3/SimpleCollection_Set.java" />
+        <option value="$PROJECT_DIR$/src/Collections/MainConceptions/Tasks2_3/Sequence.java" />
       </list>
     </option>
   </component>
@@ -192,6 +208,15 @@
               <item name="MainConceptions" type="462c0819:PsiDirectoryNode" />
               <item name="Tasks2_3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_Philosophy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="J2SE studiyng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="MainConceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Tasks2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="Sequence.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleCollection">
+  <component name="RunManager" selected="Application.Sequence">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -269,6 +294,25 @@
       <module name="Java_Philosophy" />
       <envs />
     </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Collections.MainConceptions.Tasks2_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Collections.MainConceptions.Tasks2_3.Sequence" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="50" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java_Philosophy" />
+      <envs />
+    </configuration>
     <configuration name="SimpleCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -296,25 +340,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="MultiThreading.Threads_Deamon.SimpleDeamons" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java_Philosophy" />
-      <envs />
-    </configuration>
-    <configuration name="SimplePriorities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MultiThreading.Priority.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.Priority.SimplePriorities" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -401,19 +426,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SimplePriorities" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SimpleDeamons" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GenericsAndUpcasting" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GerbilMain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SimpleCollection" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SimpleDeamons" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenericsAndUpcasting" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GerbilMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SimpleCollection" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Sequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SimpleCollection" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GerbilMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GenericsAndUpcasting" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SimpleDeamons" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SimplePriorities" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Sequence" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SimpleCollection" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GerbilMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenericsAndUpcasting" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SimpleDeamons" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +470,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -503,7 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MultiThreading/ThreadClass/task1.java" />
     <entry file="file://$PROJECT_DIR$/src/MultiThreading/ThreadClass/task1/SomeBasicThreads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -772,6 +796,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#291#298#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -801,14 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections/GenericsAndUpcasting/task1/GerbilMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -843,6 +862,27 @@
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/GenericsAndUpcasting/task1/GerbilMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/MainConceptions/Tasks2_3/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
