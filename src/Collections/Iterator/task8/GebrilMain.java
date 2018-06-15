@@ -1,4 +1,4 @@
-package Collections.Iterator.task1;
+package Collections.Iterator.task8;
 
 import java.util.ArrayList;
 import java.util.Iterator;
