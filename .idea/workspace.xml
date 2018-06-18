@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="96f46996-e814-4be7-b898-e5fb06066768" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Philosophy/Collections/LinkedList/Task14/LinkedListIterator.class" afterPath="$PROJECT_DIR$/out/production/Java_Philosophy/Collections/LinkedList/Task14/LinkedListIterator.class" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/LinkedList/Task14/LinkedListIterator.java" afterPath="$PROJECT_DIR$/src/Collections/LinkedList/Task14/LinkedListIterator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,8 +95,8 @@
       <file leaf-file-name="LinkedListIterator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Collections/LinkedList/Task14/LinkedListIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -509,7 +511,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -861,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/LinkedList/Task14/LinkedListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
